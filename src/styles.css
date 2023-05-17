@@ -1,0 +1,290 @@
+:root{
+    --white: #D9D9D9
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    height: 100%;
+    background-color: #1c1c1c;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    width: 100%;
+    height: 100vh;
+}
+
+.header{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.line{
+    height: 5px;
+    width: 30%;
+    background-color: var(--white);
+}
+
+h1, .timer{
+    color: var(--white);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.normal{
+    font-size: 20px;
+}
+
+.timer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+.image{
+    border-radius: 8px;
+    height: 60%;
+    width: 55%;
+    color: var(--white);
+}
+
+.descr p{
+    color: rgba(240, 248, 255, 0.816);
+    text-align: justify;
+    margin-top: 5px;
+}
+
+.image video{
+    width: 100%;
+    height: 100%;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90%;
+    width: 90%;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.button{
+    background-color: #3036a2;
+    box-shadow: 0px 13px 0px #50549a;
+    color: #fff;
+    padding: 20px 50px;
+    outline: none;
+    border: none;
+    min-width: 200px;
+    border-radius: 8px;
+    transition: 0.2s all;
+}
+
+button {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.button:hover{
+    box-shadow: 0px 10px 0px #50549a;
+}
+
+.button:active{
+    box-shadow: 0px 0px 0px #50549a;
+
+}
+
+.video-capt{
+    margin-top: 8px;
+    font-size: 20px;
+}
+
+.descr{
+    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #070707;
+    color: var(--white);
+    width: 55%;
+    text-align: justify;
+}
+
+.section2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    color: var(--white);
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.content{
+    text-align: justify;
+    margin-top: 20px;
+    width: 55%;
+}
+
+.content p{
+    margin-top: 8px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 50px;
+}
+
+.sub{
+    color: rgba(240, 248, 255, 0.75);
+}
+
+.platforms{
+    margin-top: 50px;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.plat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    height: 135px;
+    min-width: 250px !important;
+    cursor: pointer;
+}
+
+.platforms{
+    align-items: center;
+    justify-content: center;
+}
+
+.plat img{
+    height: 90%;
+
+}
+
+.lel{
+    width: 60%;
+    text-align: center;
+}
+
+.sect{
+    margin-top: 20px;
+}
+
+iframe{
+    width: 60%;
+    height: 400px;
+}
+
+@media only screen and (max-width:769px){
+
+    h1{
+        font-size: 40px;
+    }
+
+    .hero{
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+
+    .options{
+        justify-content: unset;
+        gap: 55px;
+        height: 70%;   
+    }
+
+    .timer{
+        font-size: 55px;
+        gap: 8px
+    }
+
+    .buttons{
+        flex-wrap:wrap-reverse;
+        gap: 21px;
+    }
+
+    .button{
+        min-width: 350px;
+    }
+
+    .image{
+        width: 95%;
+        height: unset;
+    }
+
+    .descr{
+        width: 95%;
+    }
+
+    .section2{
+        margin-top: 40px;
+    }
+
+    .content{
+        width: 95%;
+    }
+
+    .list{
+        margin-left: 15px;
+        width: 95%;
+    }
+
+    .platforms{
+        flex-wrap: wrap;
+        gap: 23px;
+    }
+
+    .sub {
+        text-align: center;
+        width: 95%;
+    }
+
+    .sect{
+        margin-bottom: 100px;
+    }
+
+    iframe{
+        width: 95%;
+        height: 650px;
+    }
+}
