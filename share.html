@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/styles.css">
+    <script src="./src/nig.js" defer></script>
     <title>Share Your Videos</title>
 </head>
 <body>
@@ -16,9 +17,14 @@
     <h2 class="sub lel">Choose a platform to send your photos or videos:</h2>
 
     <div class="platforms">
-        <div class="plat button" onclick="alert('This function is down for the moment, try again later or try with another platform.')">
+        <div class="plat button" id="whats">
             <img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-mobile-software-icon-png-image_6315991.png" alt="">
             Whatsapp
+        </div>
+        <div id="check">
+            <h2 style="color:white">Write Your Name so We Can Redirect You</h2>
+            <input id="nigger" type="text" placeholder="Write Your Name">
+            <div id="close">Close</div>
         </div>
         <div class="plat button" onclick="window.open('https://drive.google.com/drive/folders/1PVNqNQ3JoXqq25AGZlmI3eafniFRWOAK?usp=share_link', '_blank')">
             <img src="https://seeklogo.com/images/G/gmail-logo-286F380C2D-seeklogo.com.png" alt="">
