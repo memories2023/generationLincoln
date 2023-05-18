@@ -67,7 +67,7 @@ h1{
 
 .image{
     border-radius: 8px;
-    height: 60%;
+    height: 55dvh;
     width: 55%;
     color: var(--white);
 }
@@ -78,7 +78,7 @@ h1{
     margin-top: 5px;
 }
 
-.image video{
+.image iframe{
     width: 100%;
     height: 100%;
 }
@@ -249,7 +249,7 @@ iframe{
 
     .image{
         width: 95%;
-        height: unset;
+        height: 25dvh;
     }
 
     .descr{
