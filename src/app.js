@@ -62,3 +62,4 @@ const resultTime = (data, locat) => {
 
 setInterval("resultTime(dates[0], time)", 1000);
 
+

@@ -17,7 +17,16 @@ const arr = [
     'mau',
     'regina',
     'abel',
-    'fabrizio'
+    'fabrizio',
+    'daniela',
+    'erick',
+    'cristi',
+    'maria',
+    'gil',
+    'sofi',
+    'jose',
+    'han',
+    'ivana'
 ]
 
 wa.onclick = () => {
